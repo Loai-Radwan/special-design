@@ -228,7 +228,7 @@ function randomizeImage() {
             // Generate random Number
             let number = Math.floor(Math.random() * imgArr.length);
             //Pick a random image
-            landing.style.backgroundImage = `url(../img/${imgArr[number]})`;
+            landing.style.backgroundImage = `url(./img/${imgArr[number]})`;
         }, 3000);
     }
 }
